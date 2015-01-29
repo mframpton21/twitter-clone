@@ -112,9 +112,18 @@ body {
 			text-shadow: 0 1px 0 #fff;
 		}
 
-		#tweet-content {
-			padding-top: 0;
+		#profile-summary > .content > .fullname {
+			font-size: 10px;
+			padding-left: 50px
 		}
+		#profile-summary > .content > .username {
+			font-size: 8px;
+			color: #999;
+		}		
+
+	#tweet-content {
+		padding-top: 0;
+	}
 
 	/* Compose Tweet */
 	.tweet-compose {
